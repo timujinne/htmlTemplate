@@ -990,14 +990,120 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.65;
+  letter-spacing: 0.02em;
   font-family: "roboto-example", sans-serif;
   overflow-x: hidden;
   opacity: 1; }
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 3px 2px 2px #85a9c6;
+  color: #333366;
+  display: block;
+  width: 80%;
+  float: right;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+h2 {
+  margin-left: 50px;
+  border-left: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center; }
+
+header {
+  border: 5px solid #8519c9; }
+
+a, a:visited, a:link, a:hover {
+  color: #333366;
+  text-decoration: none; }
+
+abbr {
+  border-color: #aaa;
+  text-decoration: none !important; }
 
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto; }
+
+.photo {
+  text-shadow: 1px 1px 1px  #ffffff;
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-image: url("https://brainbasket.org/wp-content/uploads/Title-slide-new.png");
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: right bottom;
+  width: 100%;
+  opacity: 0,5;
+  padding-bottom: 200px; }
+  .photo strong {
+    padding-left: 1em; }
+
+.clearfix {
+  height: 10px;
+  background: #8519c9;
+  clear: both; }
+
+.brain {
+  float: left;
+  margin: 25px 0px;
+  width: 15%; }
+
+.a_brain, .a_adres {
+  color: #8519c9;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em; }
+
+.a_adres:hover, .a_brain:hover {
+  text-decoration: underline; }
+
+.a_adres {
+  font-style: italic;
+  float: right; }
+
+.a_brain {
+  float: left; }
+
+.menu li {
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  -webkit-border-radius: 5%;
+          border-radius: 5%;
+  border: 1px solid #ebebeb;
+  padding: 15px 0;
+  margin: 0 1%; }
+
+.menu li:hover {
+  background-color: #eee;
+  -webkit-transition-duration: 1.5s;
+       -o-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  border: 1px solid #bbb; }
+
+.menu img {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  display: inline-block; }
+
+.vision {
+  padding-left: 5em; }
+
+#footer {
+  color: #ffffff;
+  background: #bbb;
+  font-size: 16px;
+  padding-top: 15px;
+  text-align: center;
+  min-height: 60px;
+  left: 10px;
+  z-index: 1;
+  letter-spacing: 0.05em; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
