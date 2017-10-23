@@ -1,0 +1,75 @@
+body {
+        font-size: 140%; 
+        font-family: Verdana, Arial, Helvetica, sans-serif;  
+        color: #333366;         
+        background: linear-gradient(to bottom, #8989ba 1%,#baccfc 13%,#8989ba 25%,#c9bd95 67%,#c9bd95 67%,#bb9cd3 100%); 
+        z-index:2;
+    }
+h1     {
+        
+        font-size: 40px; 
+        text-align: center; 
+        text-shadow: 3px 3px 1px #85a9c6;
+        color: #333366; 
+        display: block;
+        width:80%;
+        float:right;
+}
+h2     {
+        padding-left: 20px; 
+        margin-left: 50px; 
+        border-left: 2px solid #fff;
+}
+header {
+    
+    border: 5px solid #8519c9;
+    
+}
+.clearfix{
+    height:10px;
+    background: #8519c9;
+    clear:both;
+}
+.photo {
+    text-shadow:1px 1px 1px  #ffffff;
+    font-size:24px;
+    background-repeat: no-repeat; 
+    background-image: url("https://brainbasket.org/wp-content/uploads/Title-slide-new.png"); 
+    background-size: cover; 
+    background-position: right bottom; 
+    width: 100%; 
+    opacity: 0,5; 
+    padding-bottom: 200px;
+    
+}    
+.brain{
+    float:left;
+    margin:25px 0px;
+    width:15%;
+}
+.a_brain{
+    color: #8519c9;
+    float:left;
+    
+}
+.a_adres{
+    color: #8519c9;
+    font-style:italic;
+    float:right;
+}
+.menu li{
+    text-align: center;
+    display: inline-block;
+    width:32%;
+    
+}
+#footer{
+    color:#ffffff;
+    font-size:18px;
+    position:fixed;
+    bottom:10px;
+    left: 10px;
+    z-index:1;
+    
+}
+
